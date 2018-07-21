@@ -36,6 +36,7 @@ setup(
     version=VERSION,
     description='YNAB API v1 Python Client',
     long_description=get_readme(),
+    long_description_content_type='text/markdown',
     author='Gordon Chiam',
     author_email='gordon.chiam@gmail.com',
     url='https://github.com/gchiam/ynab-client-python',
