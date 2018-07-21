@@ -1,4 +1,4 @@
-# swagger_client.PayeesApi
+# ynab_client.PayeesApi
 
 All URIs are relative to *https://api.youneedabudget.com/v1*
 
@@ -19,18 +19,18 @@ Returns single payee
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import ynab_client
+from ynab_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: bearer
-configuration = swagger_client.Configuration()
+configuration = ynab_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.PayeesApi(swagger_client.ApiClient(configuration))
+api_instance = ynab_client.PayeesApi(swagger_client.ApiClient(configuration))
 budget_id = 'budget_id_example' # str | The ID of the Budget.
 payee_id = 'payee_id_example' # str | The ID of the Payee.
 
@@ -75,18 +75,18 @@ Returns all payees
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import ynab_client
+from ynab_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: bearer
-configuration = swagger_client.Configuration()
+configuration = ynab_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.PayeesApi(swagger_client.ApiClient(configuration))
+api_instance = ynab_client.PayeesApi(swagger_client.ApiClient(configuration))
 budget_id = 'budget_id_example' # str | The ID of the Budget.
 
 try:
