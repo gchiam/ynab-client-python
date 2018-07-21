@@ -13,8 +13,8 @@
 
 from setuptools import setup, find_packages  # noqa: H301
 
-NAME = 'ynab-client'
-VERSION = '0.1.0'
+NAME = 'ynab_client'
+VERSION = '0.1.1'
 
 REQUIRES = [
     'urllib3 >= 1.15',
