@@ -1,7 +1,7 @@
 # coding: utf-8
 
 """
-    YNAB API Endpoints
+    YNAB API v1 Python Client
 
     Our API uses a REST based design, leverages the JSON data format, and relies upon HTTPS for transport. We respond with meaningful HTTP response codes and if an error occurs, we include error details in the response body.  API Documentation is at https://api.youneedabudget.com  # noqa: E501
 
@@ -13,24 +13,31 @@
 
 from setuptools import setup, find_packages  # noqa: H301
 
-NAME = "ynab-client"
-VERSION = "0.9.0"
-# To install the library, run the following
-#
-# python setup.py install
-#
-# prerequisite: setuptools
-# http://pypi.python.org/pypi/setuptools
+NAME = 'ynab-client'
+VERSION = '0.1.0'
 
-REQUIRES = ["urllib3 >= 1.15", "six >= 1.10", "certifi", "python-dateutil"]
+REQUIRES = [
+    'urllib3 >= 1.15',
+    'six >= 1.10',
+    'certifi',
+    'python-dateutil'
+]
 
 setup(
     name=NAME,
     version=VERSION,
-    description="YNAB API Endpoints",
-    author_email="",
-    url="",
-    keywords=["Swagger", "YNAB API Endpoints"],
+    description='YNAB API v1 Python Client',
+    author_email='gordon.chiam@gmail.com',
+    url='https://github.com/gchiam/ynab-client-python',
+    license='Apache2',
+    classifiers=(
+	'Development Status :: 4 - Beta',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: Apache Software License',
+        'Programming Language :: Python :: 2',
+        'Programming Language :: Python :: 3',
+        'Operating System :: OS Independent',
+    ),
     install_requires=REQUIRES,
     packages=find_packages(),
     include_package_data=True,
