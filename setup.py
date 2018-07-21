@@ -11,10 +11,13 @@
 """
 
 
+import codecs
+
 from setuptools import setup, find_packages  # noqa: H301
 
+
 NAME = 'ynab_client'
-VERSION = '0.1.1'
+VERSION = '0.1.3'
 
 REQUIRES = [
     'urllib3 >= 1.15',
@@ -23,10 +26,17 @@ REQUIRES = [
     'python-dateutil'
 ]
 
+
+def get_readme():
+    with codecs.open('README.md', 'r') as f:
+        return f.read()
+
 setup(
     name=NAME,
     version=VERSION,
     description='YNAB API v1 Python Client',
+    long_description=get_readme(),
+    author='Gordon Chiam',
     author_email='gordon.chiam@gmail.com',
     url='https://github.com/gchiam/ynab-client-python',
     license='Apache2',
@@ -41,7 +51,4 @@ setup(
     install_requires=REQUIRES,
     packages=find_packages(),
     include_package_data=True,
-    long_description="""\
-    Unofficial Python Library for YNAB API v1 - https://api.youneedabudget.com/v1
-    """
 )
