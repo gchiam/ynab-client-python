@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.scheduled_transaction_summary import ScheduledTransactionSummary  # noqa: E501
-from swagger_client.rest import ApiException
+import ynab_client
+from ynab_client.models.scheduled_transaction_summary import ScheduledTransactionSummary  # noqa: E501
+from ynab_client.rest import ApiException
 
 
 class TestScheduledTransactionSummary(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestScheduledTransactionSummary(unittest.TestCase):
     def testScheduledTransactionSummary(self):
         """Test ScheduledTransactionSummary"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.scheduled_transaction_summary.ScheduledTransactionSummary()  # noqa: E501
+        # model = ynab_client.models.scheduled_transaction_summary.ScheduledTransactionSummary()  # noqa: E501
         pass
 
 
