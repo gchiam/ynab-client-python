@@ -1,6 +1,7 @@
 # YNAB API v1 Python Client
 
 [![Build Status](https://travis-ci.com/gchiam/ynab-client-python.svg?branch=master)](https://travis-ci.com/gchiam/ynab-client-python)
+[![Coverage Status](https://coveralls.io/repos/github/gchiam/ynab-client-python/badge.svg)](https://coveralls.io/github/gchiam/ynab-client-python)
 
 This is the Python client for the YNAB API v1.
 
