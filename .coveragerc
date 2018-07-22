@@ -1,0 +1,10 @@
+[paths]
+source =
+    ynab_client
+
+
+[report]
+omit =
+    */python?.?/*
+    */site-packages/*
+    *__init__*
