@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.category_group import CategoryGroup  # noqa: E501
-from swagger_client.rest import ApiException
+import ynab_client
+from ynab_client.models.category_group import CategoryGroup  # noqa: E501
+from ynab_client.rest import ApiException
 
 
 class TestCategoryGroup(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestCategoryGroup(unittest.TestCase):
     def testCategoryGroup(self):
         """Test CategoryGroup"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.category_group.CategoryGroup()  # noqa: E501
+        # model = ynab_client.models.category_group.CategoryGroup()  # noqa: E501
         pass
 
 

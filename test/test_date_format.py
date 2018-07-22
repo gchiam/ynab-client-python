@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.date_format import DateFormat  # noqa: E501
-from swagger_client.rest import ApiException
+import ynab_client
+from ynab_client.models.date_format import DateFormat  # noqa: E501
+from ynab_client.rest import ApiException
 
 
 class TestDateFormat(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestDateFormat(unittest.TestCase):
     def testDateFormat(self):
         """Test DateFormat"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.date_format.DateFormat()  # noqa: E501
+        # model = ynab_client.models.date_format.DateFormat()  # noqa: E501
         pass
 
 
