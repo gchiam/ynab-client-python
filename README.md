@@ -18,7 +18,7 @@ If the python package is hosted on Github, you can install directly from Github
 ```sh
 pip install ynab-client
 ```
-(you may need to run `pip` with root permission: `sudo pip install git+https://github.com/gchiam/ynab-client-python.git`)
+(you may need to run `pip` with root permission: `sudo pip install ynab-client`)
 
 Then import the package:
 ```python
