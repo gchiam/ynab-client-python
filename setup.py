@@ -12,6 +12,7 @@
 
 
 import codecs
+import os
 
 from setuptools import setup, find_packages  # noqa: H301
 
@@ -28,7 +29,8 @@ REQUIRES = [
 
 
 def get_readme():
-    with codecs.open('README.md', 'r') as f:
+    this_directory = os.path.abspath(os.path.dirname(__file__))
+    with codecs.open(os.path.join(this_directory, 'README.md'), 'r') as f:
         return f.read()
 
 setup(
