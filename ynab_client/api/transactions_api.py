@@ -130,7 +130,7 @@ class TransactionsApi(object):
             files=local_var_files,
             response_type='BulkResponse',  # noqa: E501
             auth_settings=auth_settings,
-            is_async=params.get('async'),
+            is_async=params.get('is_async'),
             _return_http_data_only=params.get('_return_http_data_only'),
             _preload_content=params.get('_preload_content', True),
             _request_timeout=params.get('_request_timeout'),
@@ -233,7 +233,7 @@ class TransactionsApi(object):
             files=local_var_files,
             response_type='TransactionResponse',  # noqa: E501
             auth_settings=auth_settings,
-            is_async=params.get('async'),
+            is_async=params.get('is_async'),
             _return_http_data_only=params.get('_return_http_data_only'),
             _preload_content=params.get('_preload_content', True),
             _request_timeout=params.get('_request_timeout'),
@@ -336,7 +336,7 @@ class TransactionsApi(object):
             files=local_var_files,
             response_type='TransactionsResponse',  # noqa: E501
             auth_settings=auth_settings,
-            is_async=params.get('async'),
+            is_async=params.get('is_async'),
             _return_http_data_only=params.get('_return_http_data_only'),
             _preload_content=params.get('_preload_content', True),
             _request_timeout=params.get('_request_timeout'),
@@ -447,7 +447,7 @@ class TransactionsApi(object):
             files=local_var_files,
             response_type='TransactionsResponse',  # noqa: E501
             auth_settings=auth_settings,
-            is_async=params.get('async'),
+            is_async=params.get('is_async'),
             _return_http_data_only=params.get('_return_http_data_only'),
             _preload_content=params.get('_preload_content', True),
             _request_timeout=params.get('_request_timeout'),
@@ -558,7 +558,7 @@ class TransactionsApi(object):
             files=local_var_files,
             response_type='HybridTransactionsResponse',  # noqa: E501
             auth_settings=auth_settings,
-            is_async=params.get('async'),
+            is_async=params.get('is_async'),
             _return_http_data_only=params.get('_return_http_data_only'),
             _preload_content=params.get('_preload_content', True),
             _request_timeout=params.get('_request_timeout'),
@@ -661,7 +661,7 @@ class TransactionsApi(object):
             files=local_var_files,
             response_type='TransactionResponse',  # noqa: E501
             auth_settings=auth_settings,
-            is_async=params.get('async'),
+            is_async=params.get('is_async'),
             _return_http_data_only=params.get('_return_http_data_only'),
             _preload_content=params.get('_preload_content', True),
             _request_timeout=params.get('_request_timeout'),
@@ -772,7 +772,7 @@ class TransactionsApi(object):
             files=local_var_files,
             response_type='HybridTransactionsResponse',  # noqa: E501
             auth_settings=auth_settings,
-            is_async=params.get('async'),
+            is_async=params.get('is_async'),
             _return_http_data_only=params.get('_return_http_data_only'),
             _preload_content=params.get('_preload_content', True),
             _request_timeout=params.get('_request_timeout'),
@@ -883,7 +883,7 @@ class TransactionsApi(object):
             files=local_var_files,
             response_type='TransactionResponse',  # noqa: E501
             auth_settings=auth_settings,
-            is_async=params.get('async'),
+            is_async=params.get('is_async'),
             _return_http_data_only=params.get('_return_http_data_only'),
             _preload_content=params.get('_preload_content', True),
             _request_timeout=params.get('_request_timeout'),
